@@ -1,4 +1,5 @@
 <nav>
+
   <a href="{{ $.Site.LanguagePrefix }}{{ "/" | relURL }}" title="{{ i18n "homePage" }}">
     <img
       class="navbar-icon"
@@ -7,17 +8,10 @@
     <!--     Change src TODO -->
     <span> {{ .Site.Author.homepagetext }} </span>
   </a>
-  <div>
-        <ul class="language-list">
-            {{ range $.Site.Home.AllTranslations }}
-          <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-          {{ end }}
-        </ul>
-  </div>
-  <span class="icon-span">
-    <a href="https://linkedin.com/in/jtamagnan"> <img class="icon" src="/linkedin.png" /> </a>
-    <a href="https://github.com/jtamagnan"> <img class="icon" src="/github.png" /> </a>
-    <a href="/Tamagnan_Jules_resume.pdf"> <img class="icon" src="/cv.png" /> </a>
-    <a href="mailto:jtamagnan@gmail.com"> <img class="icon" src="/email.png" /> </a>
-  </span>
+  <!-- <span class="icon-span">
+       <a href="https://linkedin.com/in/jtamagnan"> <img class="icon" src="/linkedin.png" /> </a>
+       <a href="https://github.com/jtamagnan"> <img class="icon" src="/github.png" /> </a>
+       <a href="/Tamagnan_Jules_resume.pdf"> <img class="icon" src="/cv.png" /> </a>
+       <a href="mailto:jtamagnan@gmail.com"> <img class="icon" src="/email.png" /> </a>
+       </span> -->
 </nav>

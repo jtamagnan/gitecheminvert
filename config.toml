@@ -48,14 +48,16 @@ unsafe= true
 
 [languages]
   [languages.en]
-    title = "My blog"
+    # title = ""
     weight = 1
-    [languages.en.params]
-      linkedin = "https://linkedin.com/whoever"
+    languageName = "English"
+    # [languages.en.params]
+    #   linkedin = "https://linkedin.com/whoever"
   [languages.fr]
-    title = "Mon blogue"
+    # title = "Mon blogue"
     weight = 2
-    [languages.fr.params]
-      linkedin = "https://linkedin.com/fr/whoever"
-      [languages.fr.params.navigation]
-        help = "Aide"
+    languageName = "Français"
+    # [languages.fr.params]
+    #   linkedin = "https://linkedin.com/fr/whoever"
+    #   [languages.fr.params.navigation]
+    #     help = "Aide"
