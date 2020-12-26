@@ -1,6 +1,6 @@
 {{ define "main" }}
 <article>
-  <h1> {{ .Site.Title }} </h1>
+  <!-- <h1> {{ .Site.Title }} </h1> -->
     <section>
       <img
         class="homepage-icon" src="/photos/IMG_0065.jpg"
@@ -8,54 +8,78 @@
       <!--       {{ .Site.Language.Params.languageName }} -->
     </section>
     <span class="icon-span">
-      <span class="inner-span">
+      <a href="#full-home-modal">
+	<span class="inner-span">
         <img class="perk" src="/icons/full_home_1.png"/>
         <div>{{ T "full_home_1" }}<br>{{ T "full_home_2" }}</div>
+	</span>
+      </a>
+      <span class="inner-span">
+	<a href="#bedrooms-modal">
+          <img class="perk" src="/icons/bedrooms.png"/>
+          <div>{{ T "bedrooms" }}</div>
+	</a>
       </span>
       <span class="inner-span">
-        <img class="perk" src="/icons/bedrooms.png"/>
-        <div>{{ T "bedrooms" }}</div>
+	<a href="#kitchen-modal">
+          <img class="perk" src="/icons/kitchen_2.png"/>
+          <div>{{ T "kitchen" }}</div>
+	</a>
       </span>
       <span class="inner-span">
-        <img class="perk" src="/icons/kitchen_2.png"/>
-        <div>{{ T "kitchen" }}</div>
+	<a href="#pool-modal">
+          <img class="perk" src="/icons/pool_1.png"/>
+          <div>{{ T "pool" }}</div>
+	</a>
       </span>
       <span class="inner-span">
-        <img class="perk" src="/icons/pool_1.png"/>
-        <div>{{ T "pool" }}</div>
+	<a href="#garden-modal">
+          <img class="perk" src="/icons/garden.png"/>
+          <div>{{ T "garden" }}</div>
+	</a>
       </span>
       <span class="inner-span">
-        <img class="perk" src="/icons/garden.png"/>
-        <div>{{ T "garden" }}</div>
+	<a href="#location-modal">
+          <img class="perk" src="/icons/castle.png"/>
+          <div>{{ T "location" }}</div>
+	</a>
       </span>
       <span class="inner-span">
-        <img class="perk" src="/icons/castle.png"/>
-        <div>{{ T "location" }}</div>
+          <img class="perk" src="/icons/cooling_heating_1.png"/>
+          <div>{{ T "heating" }}</div>
       </span>
       <span class="inner-span">
-        <img class="perk" src="/icons/cooling_heating_1.png"/>
-        <div>{{ T "heating" }}</div>
+          <img class="perk" src="/icons/wifi_1.png"/>
+          <div>{{ T "wifi" }}</div>
       </span>
       <span class="inner-span">
-        <img class="perk" src="/icons/wifi_1.png"/>
-        <div>{{ T "wifi" }}</div>
+          <img class="perk" src="/icons/tv_1.png"/>
+          <div>{{ T "tv" }}</div>
       </span>
       <span class="inner-span">
-        <img class="perk" src="/icons/tv_1.png"/>
-        <div>{{ T "tv" }}</div>
-      </span>
-      <span class="inner-span">
-        <img class="perk" src="/icons/parking.png"/>
-        <div>{{ T "parking" }}</div>
+          <img class="perk" src="/icons/parking.png"/>
+          <div>{{ T "parking" }}</div>
       </span>
       <!-- <span class="inner-span">
-           <img class="perk" src="/icons/workspace_1.png"/>
+	   <img class="perk" src="/icons/workspace_1.png"/>
            <div>{{ T "workspace" }}</div>
 	   </span> -->
       <!-- <span class="inner-span">
+	   <a href="#full-home-modal">
            <img class="perk" src="/icons/clean_1.png"/>
            <div>{{ T "clean" }}</div>
-	   </span> -->
+	   </a>
+           </span> -->
     </span>
-  </article>
+
+    <div id="full-home-modal" class="modal-window">
+      <div>
+        <a href="#" title="Close" class="modal-close">Close</a>
+        <h1>Voilà!</h1>
+        <div>A CSS-only modal based on the :target pseudo-class. Hope you find it helpful.</div>
+      </div>
+    </div>
+
+
+</article>
 {{ end }}
