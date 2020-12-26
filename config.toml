@@ -1,4 +1,4 @@
-baseURL = "https://.com"
+baseURL = "https://gitecheminvert.com"
 enableRobotsTXT = true
 
 defaultContentLanguage = "en"
@@ -9,7 +9,7 @@ pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
 theme = "simplicity"
-title = "Gite du Chemin Vert"
+title = "Le Gîte du Chemin Vert - Pontlevoy, France"
 
 # [author]
 #   gravatarEmail = "jtamagnan@gmail.com"
@@ -30,7 +30,7 @@ title = "Gite du Chemin Vert"
   taxonomyTerm = ["HTML"]
 
 [params]
-  description = "Gite du Chemin Vert - Pontlevoy, France"
+  description = "Le Gîte du Chemin Vert - Pontlevoy, France"
   licence = false
   displayPostLanguage = false
 
@@ -54,10 +54,12 @@ unsafe= true
     # [languages.en.params]
     #   linkedin = "https://linkedin.com/whoever"
   [languages.fr]
-    # title = "Mon blogue"
     weight = 2
     languageName = "Français"
     # [languages.fr.params]
     #   linkedin = "https://linkedin.com/fr/whoever"
     #   [languages.fr.params.navigation]
     #     help = "Aide"
+  [languages.es]
+    weight = 3
+    languageName = "Español"

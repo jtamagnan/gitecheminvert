@@ -2,9 +2,7 @@
 <html lang="{{ or .Params.language .Site.LanguageCode }}" itemscope itemtype="http://schema.org/WebPage">
   {{ partial "head.html" . }}
   <body>
-    {{ if not .IsHome }}
-      {{ partial "navbar.html" . }}
-    {{ end }}
+    {{ partial "navbar.html" . }}
     <main class="container{{ if .IsHome }} home{{ end }}">
       {{ block "main" . -}}{{- end }}
     </main>

@@ -1,11 +1,61 @@
 {{ define "main" }}
-  <article>
+<article>
+  <h1> {{ .Site.Title }} </h1>
     <section>
       <img
-	class="homepage-icon"
-	       src="https://www.gravatar.com/avatar/{{ md5 .Site.Author.gravataremail }}?s=400&d=identicon"
-      >
-      {{ .Content }}
+        class="homepage-icon" src="/photos/IMG_0065.jpg"
+      />
+      <!--       {{ .Site.Language.Params.languageName }} -->
     </section>
+    <span class="icon-span">
+      <span class="inner-span">
+        <img class="perk" src="/icons/full_home_1.png"/>
+        <div>{{ T "full_home_1" }}<br>{{ T "full_home_2" }}</div>
+      </span>
+      <span class="inner-span">
+        <img class="perk" src="/icons/bedrooms.png"/>
+        <div>{{ T "bedrooms" }}</div>
+      </span>
+      <span class="inner-span">
+        <img class="perk" src="/icons/kitchen_2.png"/>
+        <div>{{ T "kitchen" }}</div>
+      </span>
+      <span class="inner-span">
+        <img class="perk" src="/icons/pool_1.png"/>
+        <div>{{ T "pool" }}</div>
+      </span>
+      <span class="inner-span">
+        <img class="perk" src="/icons/garden.png"/>
+        <div>{{ T "garden" }}</div>
+      </span>
+      <span class="inner-span">
+        <img class="perk" src="/icons/castle.png"/>
+        <div>{{ T "location" }}</div>
+      </span>
+      <span class="inner-span">
+        <img class="perk" src="/icons/cooling_heating_1.png"/>
+        <div>{{ T "heating" }}</div>
+      </span>
+      <span class="inner-span">
+        <img class="perk" src="/icons/wifi_1.png"/>
+        <div>{{ T "wifi" }}</div>
+      </span>
+      <span class="inner-span">
+        <img class="perk" src="/icons/tv_1.png"/>
+        <div>{{ T "tv" }}</div>
+      </span>
+      <span class="inner-span">
+        <img class="perk" src="/icons/parking.png"/>
+        <div>{{ T "parking" }}</div>
+      </span>
+      <!-- <span class="inner-span">
+           <img class="perk" src="/icons/workspace_1.png"/>
+           <div>{{ T "workspace" }}</div>
+	   </span> -->
+      <!-- <span class="inner-span">
+           <img class="perk" src="/icons/clean_1.png"/>
+           <div>{{ T "clean" }}</div>
+	   </span> -->
+    </span>
   </article>
 {{ end }}

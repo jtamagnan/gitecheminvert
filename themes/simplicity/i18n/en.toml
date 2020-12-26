@@ -1,17 +1,38 @@
-[postsAbout]
-other = "Posts about:"
+[pool]
+other = "Heated private pool"
 
-[postsList]
-other = "List of posts"
+[heating]
+other = "Heating & A/C"
 
-[homePage]
-other = "Homepage"
+[wifi]
+other = "Free WiFi"
 
-[categories]
-other = "Categories"
+[tv]
+other = "TV"
 
-[tags]
-other = "Tags"
+[kitchen]
+other = "Full kitchen"
 
-[pages]
-other = "Pages"
+[workspace]
+other = "Workspace"
+
+[full_home_1]
+other = "Entire House to yourself"
+[full_home_2]
+other = "Sleeps 6"
+
+
+[clean]
+other = "Recently Renovated, regularly cleaned and sanitized"
+
+[location]
+other = "Great Location"
+
+[bedrooms]
+other = "2 bedroom - 2 bath"
+
+[garden]
+other = "Patio and gardens"
+
+[parking]
+other = "Parking"

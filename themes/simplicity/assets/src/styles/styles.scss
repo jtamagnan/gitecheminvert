@@ -11,7 +11,24 @@
     display: flex;
     justify-content: center;
 }
-.icon {
-    height: 30px;
-    margin: 5px;
+.icon-span {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .inner-span {
+	display: table-cell;
+	box-shadow: 2px 2px grey;
+	border: 1px;
+	border-style: solid;
+	border-color: lightgray;
+	margin: 2px;
+	border-radius: 5%;
+	width: 20rem;
+	min-height: 10rem;
+    }
+    .perk {
+	height: $perk-icon-height;
+	margin: 1rem;
+    }
 }

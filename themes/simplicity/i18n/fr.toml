@@ -1,17 +1,37 @@
-[postsAbout]
-other = "Posts about: humph"
+[pool]
+other = "Piscine chauffée privée"
 
-[postsList]
-other = "List of posts: humph"
+[heating]
+other = "Air conditionné"
 
-[homePage]
-other = "Homepage"
+[wifi]
+other = "WiFi gratuite"
 
-[categories]
-other = "Categories"
+[tv]
+other = "Télévision"
 
-[tags]
-other = "Tags"
+[kitchen]
+other = "Cuisine toute équipée"
 
-[pages]
-other = "Pages"
+[workspace]
+other = "Espace de travail"
+
+[full_home_1]
+other = "Maison individuelle"
+[full_home_2]
+other = "6 personnes"
+
+[clean]
+other = "Recemment rénovée"
+
+[location]
+other = "Situation idéale"
+
+[bedrooms]
+other = "2 chambres - 2 salles de bain"
+
+[garden]
+other = "Terrasse et jardins"
+
+[parking]
+other = "Parking"

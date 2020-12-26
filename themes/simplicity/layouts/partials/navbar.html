@@ -3,15 +3,14 @@
   <a href="{{ $.Site.LanguagePrefix }}{{ "/" | relURL }}" title="{{ i18n "homePage" }}">
     <img
       class="navbar-icon"
-      src="https://www.gravatar.com/avatar/{{ md5 .Site.Author.gravataremail }}?s=40&d=identicon"
+      src="/icons/full_home_1.png"
     >
     <!--     Change src TODO -->
     <span> {{ .Site.Author.homepagetext }} </span>
   </a>
-  <!-- <span class="icon-span">
-       <a href="https://linkedin.com/in/jtamagnan"> <img class="icon" src="/linkedin.png" /> </a>
-       <a href="https://github.com/jtamagnan"> <img class="icon" src="/github.png" /> </a>
-       <a href="/Tamagnan_Jules_resume.pdf"> <img class="icon" src="/cv.png" /> </a>
-       <a href="mailto:jtamagnan@gmail.com"> <img class="icon" src="/email.png" /> </a>
-       </span> -->
+  <span class="icon-span">
+    {{ range .Translations }}
+      <a href="{{ .RelPermalink }}"><img class="navbar-icon" src="/icons/{{.Lang}}_flag.png" /></a>
+    {{ end }}
+  </span>
 </nav>

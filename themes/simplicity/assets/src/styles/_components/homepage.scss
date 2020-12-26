@@ -1,8 +1,11 @@
 body {
   main {
     .homepage-icon {
-      border-radius: 50%;
+      border-radius: 25%;
       margin-bottom: 2rem;
+      object-fit: contain;
+      height: auto;
+      width: 100%;
     }
   }
 }

@@ -22,11 +22,12 @@ body {
         text-decoration: none;
       }
 
-      .navbar-icon{
-          border-radius: 50%;
+      .navbar-icon {
           position: relative;
           top: .5rem;
           right: .2rem;
+	  margin: .3rem;
+	  height: $navbar-height - 1rem;
       }
 
       span {
