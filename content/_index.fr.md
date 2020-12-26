@@ -3,4 +3,4 @@ title: Homepage
 slug: /
 ---
 
-# English
+# French

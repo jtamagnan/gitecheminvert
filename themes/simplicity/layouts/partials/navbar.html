@@ -1,11 +1,19 @@
 <nav>
-  <a href="{{ $.LanguagePrefix }}{{ "/" | relURL }}" title="{{ i18n "homePage" }}">
+  <a href="{{ $.Site.LanguagePrefix }}{{ "/" | relURL }}" title="{{ i18n "homePage" }}">
     <img
-      class="homepage-avatar"
+      class="navbar-icon"
       src="https://www.gravatar.com/avatar/{{ md5 .Site.Author.gravataremail }}?s=40&d=identicon"
     >
+    <!--     Change src TODO -->
     <span> {{ .Site.Author.homepagetext }} </span>
   </a>
+  <div>
+        <ul class="language-list">
+            {{ range $.Site.Home.AllTranslations }}
+          <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+          {{ end }}
+        </ul>
+  </div>
   <span class="icon-span">
     <a href="https://linkedin.com/in/jtamagnan"> <img class="icon" src="/linkedin.png" /> </a>
     <a href="https://github.com/jtamagnan"> <img class="icon" src="/github.png" /> </a>

@@ -1,6 +1,5 @@
 ---
 title: Photos
-language: en
 slug: photos
 type: "photos"
 layout: "photos"
