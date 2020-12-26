@@ -1,0 +1,37 @@
+[pool]
+other = "Piscina privada"
+
+[heating]
+other = "Heating & A/C"
+
+[wifi]
+other = " Wi-Fi gratis"
+
+[tv]
+other = "Televisión"
+
+[kitchen]
+other = "Cocina"
+
+[workspace]
+other = "Espacio de trabajo"
+
+[full_home_1]
+other = "Todo la casa para usted"
+[full_home_2]
+other = "6 personas"
+
+[clean]
+other = "Renovada recientemente, limpiado y desinfectado regularmente"
+
+[location]
+other = "Great Location"
+
+[bedrooms]
+other = "2 habitaciones - 2 baños"
+
+[garden]
+other = "Patio y jardin"
+
+[parking]
+other = "Estacionamiento"
