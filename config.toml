@@ -18,24 +18,26 @@ title = "Le Gîte du Chemin Vert - Pontlevoy, France"
 #   rss = "/posts/index.xml"
 
 [imaging]
-  anchor = "smart"
-  resampleFilter = "box"
-  quality = 75
+ anchor = "smart"
+ resampleFilter = "box"
+ quality = 75
 
 [outputs]
-  home = ["HTML"]
-  page = ["HTML"]
-  section = ["HTML"]
-  taxonomy = ["HTML"]
-  taxonomyTerm = ["HTML"]
+ home = ["HTML"]
+ page = ["HTML"]
+ section = ["HTML"]
+ taxonomy = ["HTML"]
+ taxonomyTerm = ["HTML"]
 
 [params]
-  description = "Le Gîte du Chemin Vert - Pontlevoy, France"
-  licence = false
-  displayPostLanguage = false
+ # custom_js = []
+ # custom_css = ["css/modal.css"]
+ description = "Le Gîte du Chemin Vert - Pontlevoy, France"
+ licence = false
+ displayPostLanguage = false
 
-  [params.navigation]
-    help = "Help"
+ [params.navigation]
+   help = "Help"
 
 [permalinks]
   posts = "/:year/:month/:day/:slug/"
