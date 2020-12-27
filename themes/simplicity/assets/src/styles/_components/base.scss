@@ -19,12 +19,8 @@ body {
   }
 
   a {
-    color: $links-color;
+    color: #606c76;
     text-decoration: none;
-
-    &:hover, &:active, &:visited {
-      text-decoration: underline;
-    }
   }
 
   nav {
