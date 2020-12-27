@@ -5,7 +5,7 @@ body {
     color: $navbar-text-color;
     display: flex;
     height: $navbar-height;
-    justify-content: space-between;
+    justify-content: right;
     left: 0;
     padding: 0.1rem 1rem;
     position: fixed;
@@ -26,8 +26,8 @@ body {
           position: relative;
           top: .5rem;
           right: .2rem;
-	  margin: .3rem;
-	  height: $navbar-height - 1rem;
+          margin: .3rem;
+          height: $navbar-height - 1rem;
       }
 
       span {

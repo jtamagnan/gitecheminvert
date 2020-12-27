@@ -1,13 +1,11 @@
 <nav>
-
-  <a href="{{ $.Site.LanguagePrefix }}{{ "/" | relURL }}" title="{{ i18n "homePage" }}">
-    <img
-      class="navbar-icon"
-      src="/icons/full_home_1.png"
-    >
-    <!--     Change src TODO -->
-    <span> {{ .Site.Author.homepagetext }} </span>
-  </a>
+  <!-- <a href="{{ $.Site.LanguagePrefix }}{{ "/" | relURL }}" title="{{ i18n "homePage" }}">
+       <img
+       class="navbar-icon"
+       src="/icons/full_home_1.png"
+       >
+       </a> -->
+  <!-- <span> {{ .Site.Title }} </span> -->
   <span class="icon-span">
     {{ range .Translations }}
       <a href="{{ .RelPermalink }}"><img class="navbar-icon" src="/icons/{{.Lang}}_flag.png" /></a>
