@@ -23,7 +23,7 @@
       {{ end }}
 
       <td rowspan="{{ $rowcount }}" colspan="{{ $rowcount }}">
-	<a class="spotlight thumb-link" href="/{{ $src }}">
+	<a class="spotlight thumb-link" href="{{ $original.RelPermalink | relURL }}">
 	  <img alt="{{ $alt }}" src="{{ ($scratch.Get "resized").RelPermalink }}">
 	</a>
       </td>
