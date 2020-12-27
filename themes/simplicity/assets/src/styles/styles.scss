@@ -24,8 +24,13 @@
 	border-color: lightgray;
 	margin: 2px;
 	border-radius: 5%;
-	width: $icon-width;
 	min-height: 10rem;
+
+	width: $icon-width;
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	    width: $icon-width-mobile;
+	}
+
     }
     .perk {
 	height: $perk-icon-height;
@@ -35,7 +40,10 @@
 
 .icon-span {
     a {
-	text-decoration: underline;
+	text-decoration: $links-style;
+	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	    text-decoration: $links-style-mobile;
+	}
     }
     a:hover, a:focus {
 	text-decoration: underline;

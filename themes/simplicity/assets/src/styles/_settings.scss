@@ -21,10 +21,7 @@ $perk-icon-height: 4rem;
 // Values to change depending on desktop and mobile.
 //
 $icon-width: 20rem;
-$links-style: none;
+$icon-width-mobile: 13rem;
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    $links-style: underline;
-    $icon-width: 15rem;
-}
+$links-style: none;
+$links-style-mobile: underline;
