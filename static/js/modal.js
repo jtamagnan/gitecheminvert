@@ -11,14 +11,12 @@ function makeInvisible() {
 }
 
 function escapeKeyPress(e) {
-    console.log("Escape pressed");
     if (e.key === "Escape") {
         makeInvisible();
     }
 }
 
 function addEscapeKeyListener() {
-    console.log("Add listener")
     window.onkeydown=escapeKeyPress;
 }
 
