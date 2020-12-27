@@ -31,7 +31,6 @@
 	@include media('<desktop') {
 	    width: $icon-width-mobile;
 	}
-
     }
     .perk {
 	height: $perk-icon-height;
@@ -42,7 +41,7 @@
 .icon-span {
     a {
 	text-decoration: $links-style;
-	@include media('<desktop') {
+	@include media('nohover') {
 	    text-decoration: $links-style-mobile;
 	}
     }
@@ -72,7 +71,6 @@
 	opacity: 1;
 	pointer-events: auto;
     }
-
     &>div {
 	position: absolute;
 	top: 50%;
@@ -80,6 +78,9 @@
 	transform: translate(-50%, -50%);
 	padding: 2em;
 	background: #ffffff;
+	@include media('<desktop') {
+	    width: 95%;
+	}
     }
     .close-button {
 	border: 1px;
