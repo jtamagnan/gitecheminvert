@@ -9,7 +9,7 @@ pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
 theme = "simplicity"
-title = "Le Gîte du Chemin Vert - Pontlevoy, France"
+title = "Le Gîte du Chemin Vert - Pontlevoy"
 
 # [author]
 #   gravatarEmail = "jtamagnan@gmail.com"
@@ -32,7 +32,7 @@ title = "Le Gîte du Chemin Vert - Pontlevoy, France"
 [params]
  custom_js = ["js/modal.js"]
  # custom_css = ["css/modal.css"]
- description = "Le Gîte du Chemin Vert - Pontlevoy, France"
+ description = "Le Gîte du Chemin Vert - Pontlevoy"
  licence = false
  displayPostLanguage = false
 
