@@ -1,4 +1,5 @@
 @import "chroma_friendly";
+@import "_include_media";
 @import "settings";
 @import "_components/base";
 @import "_components/content";
@@ -27,7 +28,7 @@
 	min-height: 10rem;
 
 	width: $icon-width;
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	@include media('<desktop') {
 	    width: $icon-width-mobile;
 	}
 
@@ -41,7 +42,7 @@
 .icon-span {
     a {
 	text-decoration: $links-style;
-	@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	@include media('<desktop') {
 	    text-decoration: $links-style-mobile;
 	}
     }
