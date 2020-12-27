@@ -53,17 +53,19 @@
 }
 
 .modal-window {
+    background-color: rgba(255, 255, 255, 0.5);
+
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.25);
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 999;
+    transition: all 0.3s;
+
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s;
 
     &.visible {
 	visibility: visible;
@@ -72,7 +74,6 @@
     }
 
     &>div {
-	width: 400px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -80,14 +81,7 @@
 	padding: 2em;
 	background: #ffffff;
     }
-    header {
-	font-weight: bold;
-    }
-    h1 {
-	font-size: 150%;
-	margin: 0 0 15px;
-    }
-    a {
+    .close-button {
 	border: 1px;
 	border-color: black;
 	color: #aaa;
@@ -103,4 +97,23 @@
 	    color: black;
 	}
     }
+}
+
+.image-group {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 5px;
+
+    img {
+	margin: 0;
+	padding: 0;
+	width: 95%;
+    }
+
+    td {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+    }
+
 }

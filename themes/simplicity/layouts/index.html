@@ -2,8 +2,10 @@
 <article>
   <h1> {{ .Site.Title }} </h1>
   <section>
-    <img class="homepage-icon" src="/photos/IMG_0065.jpg" />
-    <!--       {{ .Site.Language.Params.languageName }} -->
+
+    {{ partial "spotlight-group.html" (dict "images" (slice (dict "src" "photos/IMG_0065.jpg" "alt" "txt") (dict "src" "photos/IMG_0057.jpg" "alt" "txt") (dict "src" "photos/IMG_0058.jpg" "alt" "txt") (dict "src" "photos/IMG_0059.jpg" "alt" "txt") (dict "src" "photos/IMG_0060.jpg" "alt" "txt"))) }}
+
+    <!-- <img class="homepage-icon" src="/photos/IMG_0065.jpg" /> -->
   </section>
   <span class="icon-span">
     <a onclick="makeVisible('full-home-modal')" class="inner-span">
@@ -62,9 +64,16 @@
 
   <div id="full-home-modal" class="modal-window">
     <div>
-      <a onclick="makeInvisible()">Close</a>
-      <h1>Voilà!</h1>
-      <div>A CSS-only modal based on the :target pseudo-class. Hope you find it helpful.</div>
+      <a class="close-button"  onclick="makeInvisible()">Close</a>
+      {{ partial "spotlight-group.html" (dict "images" (slice (dict "src" "photos/IMG_0065.jpg" "alt" "txt") (dict "src" "photos/IMG_0057.jpg" "alt" "txt") (dict "src" "photos/IMG_0058.jpg" "alt" "txt") (dict "src" "photos/IMG_0059.jpg" "alt" "txt") (dict "src" "photos/IMG_0060.jpg" "alt" "txt"))) }}
+      This is some text about the house, so cool!!
+    </div>
+  </div>
+
+  <div id="bedrooms-modal" class="modal-window">
+    <div>
+      <a class="close-button"  onclick="makeInvisible()">Close</a>
+      {{ partial "spotlight-group.html" (dict "images" (slice (dict "src" "photos/IMG_3633.jpg" "alt" "txt") (dict "src" "photos/IMG_3642.jpg" "alt" "txt") (dict "src" "photos/IMG_3641.jpg" "alt" "txt") (dict "src" "photos/IMG_3640.jpg" "alt" "txt") (dict "src" "photos/IMG_3639.jpg" "alt" "txt"))) }}
     </div>
   </div>
 </article>

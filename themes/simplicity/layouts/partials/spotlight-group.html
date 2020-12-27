@@ -1,0 +1,35 @@
+{{ $scratch := newScratch }}
+<span>
+  <table class="image-group">
+    <tr>
+      {{ range $index, $elem_val := .images }}
+      {{ $src := $elem_val.src}}
+      {{ $alt := $elem_val.alt}}
+      {{ $original := resources.Get $src }}
+
+      {{ if lt $index 5 }}
+      {{ $rowcount := "" }}
+      {{ if eq $index 0 }}
+      {{ $rowcount = "2" }}
+      {{ $scratch.Set "resized" ($original.Resize "320x") }}
+      {{ else }}
+      {{ $rowcount = "1" }}
+      {{ $scratch.Set "resized" ($original.Resize "155x") }}
+      {{ end}}
+
+      {{ if eq $index 3 }}
+    </tr>
+    <tr>
+      {{ end }}
+
+      <td rowspan="{{ $rowcount }}" colspan="{{ $rowcount }}">
+	<a class="spotlight thumb-link" href="/{{ $src }}">
+	  <img alt="{{ $alt }}" src="{{ ($scratch.Get "resized").RelPermalink }}">
+	</a>
+      </td>
+
+      {{ end }}
+      {{ end }}
+    </tr>
+  </table>
+</span>
