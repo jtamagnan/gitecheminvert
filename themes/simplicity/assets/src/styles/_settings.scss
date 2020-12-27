@@ -16,3 +16,15 @@ $navbar-text-color: $color-black;
 
 $links-color: $color-brilliant-azure;
 $perk-icon-height: 4rem;
+
+//
+// Values to change depending on desktop and mobile.
+//
+$icon-width: 20rem;
+$links-style: none;
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    $links-style: underline;
+    $icon-width: 15rem;
+}
