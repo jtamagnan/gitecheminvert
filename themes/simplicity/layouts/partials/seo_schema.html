@@ -1,0 +1,31 @@
+<script type="application/ld+json">
+ {
+   "@context" : "http://schema.org",
+   "@type" : "B&B",
+   "mainEntityOfPage": {
+     "@type": "WebPage",
+     "@id": "{{ .Site.BaseURL }}"
+   },
+   "name" : "{{ .Title }}",
+   "headline" : "{{ .Title }}",
+   "description" : "{{ if $.Site.Params.description }}{{ $.Site.Params.description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}",
+   "inLanguage" : "en-US",
+   "author" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+   "creator" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+   "publisher": "{{ range .Site.Author }}{{ . }}{{ end }}",
+   "accountablePerson" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+   "copyrightHolder" : "{{ range .Site.Author }}{{ . }}{{ end }}",
+   "copyrightYear" : 2020,
+   "datePublished": "{{ .Date }}",
+   "dateModified" : "{{ .Date }}",
+   "url" : "{{ .Permalink }}",
+   "wordCount" : "{{ .WordCount }}",
+   "keywords" : [ {{ if isset $.Site.Params "tags" }}{{ range $.Site.Params.tags }}"{{ . }}",{{ end }}{{ end }} ]
+   "address": {
+     "@type": "PostalAddress",
+     "addressLocality": "Pontlevoy",
+     "postalCode": "41400",
+     "addressCountry": "FR"
+   }
+ }
+</script>

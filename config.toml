@@ -11,11 +11,8 @@ pygmentsUseClasses =  true
 theme = "simplicity"
 title = "Le Gîte du Chemin Vert - Pontlevoy"
 
-# [author]
-#   gravatarEmail = "jtamagnan@gmail.com"
-#   homepageText = "Jules Tamagnan"
-#   name = "Jules Tamagnan"
-#   rss = "/posts/index.xml"
+[author]
+  name = "Nathalie Tamagnan"
 
 [imaging]
  anchor = "smart"
@@ -35,6 +32,8 @@ title = "Le Gîte du Chemin Vert - Pontlevoy"
  description = "Le Gîte du Chemin Vert - Pontlevoy"
  licence = false
  displayPostLanguage = false
+ images = ["photos/IMG_0065.jpg"]
+ tags = ["BnB", "Bed and breakfast", "Gîte", "France", "Pontlevoy", "Tourism", "inn","B&B", "Touraine"]
 
  [params.navigation]
    help = "Help"
