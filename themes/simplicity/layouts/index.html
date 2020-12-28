@@ -76,5 +76,13 @@
       {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_3633.jpg" "photos/IMG_3642.jpg" "photos/IMG_3641.jpg" "photos/IMG_3640.jpg" "photos/IMG_3639.jpg")) }}
     </div>
   </div>
+
+  <div id="location-modal" class="modal-window">
+    <div>
+      <a class="close-button"  onclick="makeInvisible()">Close</a>
+      <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1-zFl8ZMqNSHIgyiBrP__meYnFoikgrIw" width="640" height="480"></iframe>
+    </div>
+  </div>
+
 </article>
 {{ end }}
