@@ -3,7 +3,7 @@
   <h1> {{ .Site.Title }} </h1>
   <section>
 
-    {{ partial "spotlight-group.html" (dict "images" (slice (dict "src" "photos/IMG_0065.jpg" "alt" ( T "IMG_0065" )) (dict "src" "photos/IMG_0057.jpg" "alt" (T "IMG_0057")) (dict "src" "photos/IMG_0058.jpg" "alt" (T "IMG_0058")) (dict "src" "photos/IMG_0059.jpg" "alt" (T "IMG_0059")) (dict "src" "photos/IMG_0060.jpg" "alt" (T "IMG_0060")))) }}
+    {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_0065.jpg" "photos/IMG_0057.jpg" "photos/IMG_0058.jpg" "photos/IMG_0059.jpg" "photos/IMG_0060.jpg")) }}
 
     <!-- <img class="homepage-icon" src="/photos/IMG_0065.jpg" /> -->
   </section>
@@ -65,7 +65,7 @@
   <div id="full-home-modal" class="modal-window">
     <div>
       <a class="close-button"  onclick="makeInvisible()">Close</a>
-      {{ partial "spotlight-group.html" (dict "images" (slice (dict "src" "photos/IMG_0065.jpg" "alt" (T "IMG_0065")) (dict "src" "photos/IMG_0057.jpg" "alt" (T "IMG_0057")) (dict "src" "photos/IMG_0058.jpg" "alt" (T "IMG_0058")) (dict "src" "photos/IMG_0059.jpg" "alt" (T "IMG_0059")) (dict "src" "photos/IMG_0060.jpg" "alt" (T "IMG_0060")))) }}
+      {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_0065.jpg" "photos/IMG_0057.jpg" "photos/IMG_0058.jpg" "photos/IMG_0059.jpg" "photos/IMG_0060.jpg")) }}
       This is some text about the house, so cool!!
     </div>
   </div>
@@ -73,7 +73,7 @@
   <div id="bedrooms-modal" class="modal-window">
     <div>
       <a class="close-button"  onclick="makeInvisible()">Close</a>
-      {{ partial "spotlight-group.html" (dict "images" (slice (dict "src" "photos/IMG_3633.jpg" "alt" (T "IMG_3633")) (dict "src" "photos/IMG_3642.jpg" "alt" (T "IMG_3642")) (dict "src" "photos/IMG_3641.jpg" "alt" (T "IMG_3641")) (dict "src" "photos/IMG_3640.jpg" "alt" (T "IMG_3640")) (dict "src" "photos/IMG_3639.jpg" "alt" (T "IMG_3639")))) }}
+      {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_3633.jpg" "photos/IMG_3642.jpg" "photos/IMG_3641.jpg" "photos/IMG_3640.jpg" "photos/IMG_3639.jpg")) }}
     </div>
   </div>
 </article>

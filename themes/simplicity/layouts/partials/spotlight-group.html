@@ -3,8 +3,10 @@
   <table class="image-group">
     <tr>
       {{ range $index, $elem_val := .images }}
-      {{ $src := $elem_val.src}}
-      {{ $alt := $elem_val.alt}}
+      {{ $src := $elem_val}}
+      {{ $fileName := index (last 1 (split $src "/")) 0 }}
+      {{ $imageName := index (split $fileName ".") 0 }}
+      {{ $alt := (T $imageName)}}
       {{ $original := resources.Get $src }}
 
       {{ if lt $index 5 }}
@@ -27,7 +29,8 @@
 	  <img alt="{{ $alt }}" src="{{ ($scratch.Get "resized").RelPermalink }}">
 	</a>
       </td>
-
+      {{ else }}
+      <a class="spotlight thumb-link" href="{{ $original.RelPermalink | relURL }}">txt</a>
       {{ end }}
       {{ end }}
     </tr>
