@@ -1,4 +1,6 @@
 {{ $scratch := newScratch }}
+{{ $resize := .resize | default "true" }}
+
 <span>
   <table class="image-group">
     <tr>
@@ -11,6 +13,7 @@
 
       {{ if lt $index 5 }}
       {{ $rowcount := "" }}
+      {{ if eq $resize "true" }}
       {{ if eq $index 0 }}
       {{ $rowcount = "2" }}
       {{ $scratch.Set "resized" ($original.Resize "320x") }}
@@ -18,6 +21,9 @@
       {{ $rowcount = "1" }}
       {{ $scratch.Set "resized" ($original.Resize "155x") }}
       {{ end}}
+      {{ else }}
+      {{ $scratch.Set "resized" ($original.Resize "x320") }}
+      {{ end }}
 
       {{ if eq $index 3 }}
     </tr>

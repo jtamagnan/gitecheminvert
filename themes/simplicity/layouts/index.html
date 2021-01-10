@@ -2,10 +2,7 @@
 <article>
   <h1> {{ .Site.Title }} </h1>
   <section>
-
-    {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_0065.jpg" "photos/IMG_0057.jpg" "photos/IMG_0058.jpg" "photos/IMG_0059.jpg" "photos/IMG_0060.jpg")) }}
-
-    <!-- <img class="homepage-icon" src="/photos/IMG_0065.jpg" /> -->
+    {{ partial "spotlight-group.html" (dict "resize" "False" "images" (slice "photos/IMG_0033.jpg" "photos/IMG_5545.jpg")) }}
   </section>
   <span class="icon-span">
     <a onclick="makeVisible('full-home-modal')" class="inner-span">
