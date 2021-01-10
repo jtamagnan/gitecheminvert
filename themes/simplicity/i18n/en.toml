@@ -17,15 +17,15 @@ other = "Full kitchen"
 other = "Workspace"
 
 [full_home_1]
-other = "Entire House to yourself"
+other = "Entire house to yourself"
 [full_home_2]
 other = "Sleeps 6"
 
 [clean]
-other = "Recently Renovated, regularly cleaned and sanitized"
+other = "Recently renovated, regularly cleaned and sanitized"
 
 [location]
-other = "Great Location"
+other = "Great location"
 
 [bedrooms]
 other = "2 bedroom - 2 bath"
