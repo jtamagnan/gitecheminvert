@@ -18,36 +18,36 @@
     flex-wrap: wrap;
 
     .inner-span {
-	display: table-cell;
-	box-shadow: 2px 2px grey;
-	border: 1px;
-	border-style: solid;
-	border-color: lightgray;
-	margin: 2px;
-	border-radius: 5%;
-	min-height: 10rem;
+        display: table-cell;
+        box-shadow: 2px 2px grey;
+        border: 1px;
+        border-style: solid;
+        border-color: lightgray;
+        margin: 2px;
+        border-radius: 5%;
+        min-height: 10rem;
 
-	width: $icon-width;
-	@include media('<desktop') {
-	    width: $icon-width-mobile;
-	}
+        width: $icon-width;
+        @include media('<desktop') {
+            width: $icon-width-mobile;
+        }
     }
     .perk {
-	height: $perk-icon-height;
-	margin: 1rem;
+        height: $perk-icon-height;
+        margin: 1rem;
     }
 }
 
 .icon-span {
     a {
-	text-decoration: $links-style;
-	@include media('nohover') {
-	    text-decoration: $links-style-mobile;
-	}
+        text-decoration: $links-style;
+        @include media('nohover') {
+            text-decoration: $links-style-mobile;
+        }
     }
     a:hover, a:focus {
-	text-decoration: underline;
-	cursor: pointer;
+        text-decoration: underline;
+        cursor: pointer;
     }
 }
 
@@ -67,36 +67,36 @@
     pointer-events: none;
 
     &.visible {
-	visibility: visible;
-	opacity: 1;
-	pointer-events: auto;
+        visibility: visible;
+        opacity: 1;
+        pointer-events: auto;
     }
     &>div {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	padding: 2em;
-	background: #ffffff;
-	@include media('<desktop') {
-	    width: 95%;
-	}
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2em;
+        background: #ffffff;
+        @include media('<desktop') {
+            width: 95%;
+        }
     }
     .close-button {
-	border: 1px;
-	border-color: black;
-	color: #aaa;
-	line-height: 50px;
-	font-size: 80%;
-	position: absolute;
-	right: 0;
-	text-align: center;
-	top: 0;
-	width: 70px;
-	text-decoration: none;
-	&:hover {
-	    color: black;
-	}
+        border: 1px;
+        border-color: black;
+        color: #aaa;
+        line-height: 50px;
+        font-size: 80%;
+        position: absolute;
+        right: 0;
+        text-align: center;
+        top: 0;
+        width: 70px;
+        text-decoration: none;
+        &:hover {
+            color: black;
+        }
     }
 }
 
@@ -106,15 +106,15 @@
     margin: 5px;
 
     img {
-	margin: 0;
-	padding: 0;
-	width: 95%;
+        margin: 0;
+        padding: 0;
+        width: 95%;
     }
 
     td {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
     }
 
 }
@@ -125,4 +125,8 @@
 .maps-iframe {
     height: 480px;
     width: 100%;
+}
+
+.hidden-image {
+    visibility: hidden;
 }

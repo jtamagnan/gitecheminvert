@@ -31,12 +31,14 @@
       {{ end }}
 
       <td rowspan="{{ $rowcount }}" colspan="{{ $rowcount }}">
-	<a class="spotlight thumb-link" href="{{ $original.RelPermalink | relURL }}">
-	  <img alt="{{ $alt }}" src="{{ ($scratch.Get "resized").RelPermalink }}">
-	</a>
+        <a class="spotlight" href="{{ $original.RelPermalink | relURL }}">
+          <img alt="{{ $alt }}" src="{{ ($scratch.Get "resized").RelPermalink }}">
+        </a>
       </td>
       {{ else }}
-      <a class="spotlight thumb-link" href="{{ $original.RelPermalink | relURL }}">txt</a>
+      <td>
+        <a class="spotlight hidden-image" href="{{ $original.RelPermalink | relURL }}"></a>
+      </td>
       {{ end }}
       {{ end }}
     </tr>

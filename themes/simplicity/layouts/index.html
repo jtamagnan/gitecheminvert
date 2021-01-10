@@ -5,7 +5,7 @@
     {{ partial "spotlight-group.html" (dict "resize" "False" "images" (slice "photos/IMG_0033.jpg" "photos/IMG_5545.jpg")) }}
   </section>
   <span class="icon-span">
-    <a onclick="makeVisible('full-home-modal')" class="inner-span">
+    <a onclick="makeVisible('house-modal')" class="inner-span">
       <span>
         <img class="perk" src="/icons/full_home_1.png"/>
         <div>{{ T "full_home_1" }}<br>{{ T "full_home_2" }}</div>
@@ -59,10 +59,17 @@
     </span>
   </span>
 
-  <div id="full-home-modal" class="modal-window">
+  <div id="house-modal" class="modal-window">
     <div>
       <a class="close-button"  onclick="makeInvisible()">Close</a>
-      {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_0065.jpg" "photos/IMG_0057.jpg" "photos/IMG_0058.jpg" "photos/IMG_0059.jpg" "photos/IMG_0060.jpg")) }}
+      {{ partial "spotlight-group.html" (dict "resize" "False" "images" (slice "photos/IMG_5468.jpg" "photos/IMG_0192.jpg" "photos/IMG_0125.jpg")) }}
+    </div>
+  </div>
+
+  <div id="bedrooms-modal" class="modal-window">
+    <div>
+      <a class="close-button"  onclick="makeInvisible()">Close</a>
+      {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_0040.jpg" "photos/IMG_0044.jpg" "photos/IMG_0038.jpg" "photos/IMG_0124.jpg" "photos/IMG_0037.jpg" "photos/IMG_3640.jpg" "photos/IMG_3639.jpg" "photos/IMG_0036.jpg" )) }}
     </div>
   </div>
 
@@ -73,13 +80,6 @@
     </div>
   </div>
 
-  <div id="garden-modal" class="modal-window">
-    <div>
-      <a class="close-button"  onclick="makeInvisible()">Close</a>
-      {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_0057.jpg" "photos/IMG_0058.jpg" "photos/IMG_0061.jpg" "photos/IMG_0119.jpg" "photos/IMG_0122.jpg")) }}
-    </div>
-  </div>
-
   <div id="pool-modal" class="modal-window">
     <div>
       <a class="close-button"  onclick="makeInvisible()">Close</a>
@@ -87,10 +87,10 @@
     </div>
   </div>
 
-  <div id="bedrooms-modal" class="modal-window">
+  <div id="garden-modal" class="modal-window">
     <div>
       <a class="close-button"  onclick="makeInvisible()">Close</a>
-      {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_0044.jpg" "photos/IMG_0038.jpg" "photos/IMG_0037.jpg" "photos/IMG_3640.jpg" "photos/IMG_3639.jpg" "photos/IMG_0036.jpg" )) }}
+      {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_0057.jpg" "photos/IMG_0058.jpg" "photos/IMG_0030.jpg" "photos/IMG_0061.jpg" "photos/IMG_0070.jpg" "photos/IMG_0063.jpg" "photos/IMG_0062.jpg" "photos/IMG_0119.jpg" "photos/IMG_0122.jpg" "photos/IMG_0065.jpg" "photos/IMG_0057.jpg" "photos/IMG_0058.jpg" "photos/IMG_0060.jpg")) }}
     </div>
   </div>
 
