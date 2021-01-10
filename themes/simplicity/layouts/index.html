@@ -66,7 +66,9 @@
     <div>
       <a class="close-button"  onclick="makeInvisible()">Close</a>
       {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_0065.jpg" "photos/IMG_0057.jpg" "photos/IMG_0058.jpg" "photos/IMG_0059.jpg" "photos/IMG_0060.jpg")) }}
-      This is some text about the house, so cool!!
+    </div>
+  </div>
+
   <div id="kitchen-modal" class="modal-window">
     <div>
       <a class="close-button"  onclick="makeInvisible()">Close</a>
@@ -76,6 +78,11 @@
 
     </div>
   </div>
+
+  <div id="pool-modal" class="modal-window">
+    <div>
+      <a class="close-button"  onclick="makeInvisible()">Close</a>
+      {{ partial "spotlight-group.html" (dict "images" (slice "photos/IMG_0071.jpg" "photos/IMG_4160.jpg" "photos/IMG_4563.jpg" "photos/IMG_0066.jpg")) }}
     </div>
   </div>
 
