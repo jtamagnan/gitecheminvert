@@ -20,7 +20,7 @@
    "dateModified" : "{{ .Date }}",
    "url" : "{{ .Permalink }}",
    "wordCount" : "{{ .WordCount }}",
-   "keywords" : [ {{ if isset $.Site.Params "tags" }}{{ range $.Site.Params.tags }}"{{ . }}",{{ end }}{{ end }} ]
+   "keywords" : [ {{ if isset $.Site.Params "tags" }}{{ range $.Site.Params.tags }}"{{ . }}",{{ end }}{{ end }} ],
    "address": {
      "@type": "PostalAddress",
      "streetAddress": "41 Rue du Chemin Vert",
