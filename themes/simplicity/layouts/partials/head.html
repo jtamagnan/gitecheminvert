@@ -40,6 +40,10 @@
     <script src="{{ . | absURL }}"></script>
   {{- end }}
 
+  {{ range .Translations }}
+    <link rel="alternate" href="{{ .Permalink }}" hreflang="{{ .Lang }}" />
+  {{ end }}
+
   <script src="https://rawcdn.githack.com/nextapps-de/spotlight/0.6.3/dist/spotlight.cdn.js"></script>
 
   {{ partial "seo_schema" . }}
