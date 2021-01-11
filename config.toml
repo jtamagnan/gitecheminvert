@@ -11,6 +11,8 @@ pygmentsUseClasses =  true
 theme = "simplicity"
 title = "Le Gîte du Chemin Vert - Pontlevoy"
 
+disableKinds = ["taxonomy", "term", "RSS"]
+[taxonomies]
 [author]
   name = "Nathalie Tamagnan"
 
@@ -23,8 +25,6 @@ title = "Le Gîte du Chemin Vert - Pontlevoy"
  home = ["HTML"]
  page = ["HTML"]
  section = ["HTML"]
- taxonomy = ["HTML"]
- taxonomyTerm = ["HTML"]
 
 [params]
  custom_js = ["js/modal.js"]

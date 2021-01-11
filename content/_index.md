@@ -1,6 +1,0 @@
----
-title: Homepage
-slug: /
----
-
-# English
