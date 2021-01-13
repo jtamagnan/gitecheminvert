@@ -33,7 +33,7 @@ disableKinds = ["taxonomy", "term", "RSS"]
  licence = false
  displayPostLanguage = false
  images = ["photos/IMG_0065.jpg"]
- tags = ["BnB", "Bed and breakfast", "Gîte", "France", "Pontlevoy", "Tourism", "inn","B&B", "Touraine"]
+ tags = ["BnB", "Bed and breakfast", "Gîte", "France", "Pontlevoy", "Tourism", "inn", "Touraine"]
 
  [params.navigation]
    help = "Help"
