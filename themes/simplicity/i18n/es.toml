@@ -25,7 +25,7 @@ other = "6 personas"
 other = "Renovada recientemente, limpiado y desinfectado regularmente"
 
 [location]
-other = "Great Location"
+other = "Ubicación"
 
 [bedrooms]
 other = "2 habitaciones - 2 baños"
@@ -35,3 +35,63 @@ other = "Patio y jardin"
 
 [parking]
 other = "Estacionamiento"
+
+[house_modal]
+other = """
+Nuestra casa en el pueblo de Pontlevoy es de
+90 metros cuadrados y 2 plantas, ha sido recientemente renovada y
+tiene capacidad para 6 personas (4 adultos como máximo).
+"""
+
+[bedrooms_modal]
+other = """
+En la planta baja encontrará un dormitorio con una cama Queen y un
+baño. Arriba, un dormitorio con una cama King y 2 futones pequeños
+(para niños y adolescentes) así como otro baño.  Hay tomas USB en cada
+habitación, lavabos 'japoneses' y camas hechas y toallas a
+su disposición.
+"""
+
+[kitchen_modal]
+other = """
+
+&emsp;¿Quiere preparar una cena agradable después de un día de turismo o de
+relajación?
+<br>
+&emsp;La cocina totalmente equipada te espera: placa de inducción,
+microondas, 2 cafeteras, una vinoteca (¡con una sorpresa!) Y tomas
+USB, etc. También encontrarás un surtido de comestibles básicos.
+<br>
+&emsp;Tenga en cuenta que también tendrá disponible una sala de lavandería
+con lavadora y secadora.
+
+"""
+
+[pool_modal]
+other = """
+Piscina privada de 15 x 5 metros, climatizada a un mínimo de 28
+grados.  Agua ligeramente salada (sin cloro).  Profundidad 1,20 m -
+1,80 m.  Tumbonas y toallas de piscina le esperan.
+"""
+
+[garden_modal]
+other = "Para descansar un poco: césped, terraza (con barbacoa) y jardines."
+
+[location_modal]
+other = """
+&emsp;Nuestro pequeño pueblo de Pontlevoy se encuentra entre los 2
+tranquilos valles del Loire y Cher.  Para sus días de aventura, los
+castillos de Chenonceau, Chaumont (y su festival del jardín),
+Cheverny, Blois, Chambord están a una docena de kilómetros de
+distancia, así como el parque zoológico de Beauval.
+<br>
+&emsp;A unos treinta minutos, encontrará la pequeña ciudad de Amboise y el
+Clos Luce, donde vivió Leonardo da Vinci al final de sus días.  Hay
+muchas rutas de senderismo y ciclismo (Loire à Vélo, Châteaux à Vélo,
+etc.) que esperan a los más valientes.
+<br>
+&emsp;Como puede ver, la hermosa Touraine está llena de historia, y puede
+elegir visitar un poco o mucho, pero también le aconsejamos que
+deguste nuestros vinos, que se tome un baño o simplemente se relaje
+...
+"""

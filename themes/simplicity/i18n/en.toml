@@ -1,3 +1,6 @@
+[subheader]
+other = "~ A Beautiful Escape ~"
+
 [pool]
 other = "Heated private pool"
 
@@ -36,32 +39,59 @@ other = "Patio and gardens"
 [parking]
 other = "Parking"
 
-[IMG_0057]
-other = "View of the garden from the patio"
+[house_modal]
+other = """
+Our 900ft² 2 floor house has been recently renovated and comfortably
+accommodates 6 people in the village of Pontlevoy.
+"""
 
-[IMG_0058]
-other = "View of the garden from the patio - 2"
+[bedrooms_modal]
+other = """
+&emsp;Near the entrance you'll find a room with a Queen sized bed and a
+private bathroom. Right up the stairs you'll find a second room with a
+King bed, two futons, and another bathroom. Each room is equipped with
+USB sockets. Each bathroom is equipped with "Japanese" toilets as well
+as linens.
+<ul>
+ <li> 2 bedrooms </li>
+ <li> 2 bathrooms </li>
+ <li> 1 Queen bed </li>
+ <li> 1 King bed </li>
+ <li> 2 Futons </li>
+</ul>
+"""
 
-[IMG_0059]
-other = "The garden in full bloom infront of the berry trees"
+[kitchen_modal]
+other = """
+&emsp;Want to cook up a friendly dinner after a day of sightseeing or lazing
+around? The fully equipped kitchen awaits you: induction stovetop,
+microwave, 2 coffeemakers, wine fridge (with a surprise!), USB sockets
+etc ... You will also find an assortment of basic groceries.
+<br>
+&emsp;Also note, a laundry room with washing machine and dryer.
+"""
 
-[IMG_0060]
-other = "The flower garden in bloom"
+[pool_modal]
+other = """
+Private swimming pool measuring 45 by 15 feet, heated to a minimum of
+82 degrees. Slightly salted water (no chlorine). Depth 1.20 m./1.80
+m. Chaise longues and pool towels await you.
+"""
 
-[IMG_0065]
-other = "View of the house from the garden"
+[garden_modal]
+other = "To laze a little: lawn, terrace (with barbecue) and gardens."
 
-[IMG_3633]
-other = "The queen sized bed in the bottom bedroom"
-
-[IMG_3642]
-other = "The sink in the upstairs bathroom"
-
-[IMG_3641]
-other = "A view into the upstairs bathroom"
-
-[IMG_3640]
-other = "A view into the upstairs bedroom"
-
-[IMG_3639]
-other = "A view into the upstairs bedroom - 2"
+[location_modal]
+other = """
+Our small village of Pontlevoy is located between the 2 peaceful
+valleys of the Loire and the Cher. For your days of discovery, the
+castles of Chenonceau, Chaumont (and its garden festival), Cheverny,
+Blois, Chambord are a few dozen kilometers away as well as the Beauval
+Park Zoo. About thirty minutes away, you'll find the small town of
+Amboise and the Clos Luce where Leonardo da Vinci lived at the end of
+his days. There are many hiking and cycling trails (Loire à Vélo,
+Châteaux à Vélo etc ...) that await the bravest. As you can see, our
+beautiful Touraine is steeped in history, and you can choose to visit
+a little or a lot but we also advise you to taste our wines, to swim
+or simply to laze around.
+"""

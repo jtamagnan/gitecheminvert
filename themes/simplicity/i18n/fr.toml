@@ -1,3 +1,6 @@
+[subheader]
+other = "~ L’Échappée Belle ~"
+
 [pool]
 other = "Piscine chauffée privée"
 
@@ -35,3 +38,58 @@ other = "Terrasse et jardins"
 
 [parking]
 other = "Parking"
+
+[house_modal]
+other = '''
+Notre maison de 90m2 sur 2 étages a été récemment rénovée et accueille confortablement 6
+personnes (4 adultes maximum) dans le village de Pontlevoy.
+'''
+
+[bedrooms_modal]
+other = """
+Au rez-de-chaussée vous trouverez, une chambre avec un lit en 160 (queen) et une salle de bains.
+A l'étage, une chambre avec un lit en 180 (king) et 2 petits futons en 80 (enfants et ados) ainsi
+qu'une autre salle de bains. Prises USB dans chaque chambre. Toilettes lavantes "japonaises".
+Lits faits et linge de toilette à votre disposition.
+"""
+
+[kitchen_modal]
+other = """
+Envie de concocter un diner convivial après une journée de visite ou de farniente? La cuisine
+toute aménagée vous attend: plaques induction, micro-ondes, 2 cafetières, frigo à vins (avec une
+surprise!), prises USB etc...Vous y trouverez aussi un assortiment d'épicerie de base.
+A noter également, une buanderie avec machine à laver et sèche linge.
+"""
+
+[pool_modal]
+other = """
+Piscine privative de 15 mètres sur 5, chauffée à 28 degrés minimum.
+Eau très légèrement salée (pas de chlore).
+Profondeur 1,20 m./1,80 m.
+<br>
+&emsp;Chaises longues et serviettes de piscine vous attendent.
+"""
+
+[garden_modal]
+other = "Pour paresser un peu: pelouse, terrasse (avec barbecue) et jardins."
+
+[location_modal]
+other = """
+&emsp;Notre petit village de Pontlevoy se situe entre les 2 paisibles
+vallées de la Loire et du Cher.
+<br>
+&emsp;Pour vos journées découvertes, les châteaux de Chenonceau, Chaumont
+(et son festival des jardins), Cheverny, Blois, Chambord sont à
+quelques dizaines de kilomètres ainsi que le zoo parc de
+Beauval. Également à une trentaine de minutes, la petite ville
+d'Amboise et le Clos Luce où Leonard de Vinci vécu à la fin de
+ses jours.
+<br>
+&emsp;Les sentiers pédestres et itinéraires vélo sont nombreux (Loire à
+Vélo, Châteaux à Vélo etc...) et attendent les plus courageux.
+<br>
+&emsp;Vous l'avez compris dans cette belle Touraine chargée d'histoire,
+vous pourrez donc choisir de visiter un peu ou beaucoup mais nous vous
+conseillons également de déguster nos vins, de nager ou simplement de
+paresser...
+"""
