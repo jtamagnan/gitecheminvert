@@ -1,3 +1,6 @@
+[subheader]
+other = "~ A Beautiful Escape ~"
+
 [pool]
 other = "Piscina privada"
 
@@ -54,7 +57,6 @@ su disposición.
 
 [kitchen_modal]
 other = """
-
 &emsp;¿Quiere preparar una cena agradable después de un día de turismo o de
 relajación?
 <br>
@@ -64,7 +66,6 @@ USB, etc. También encontrarás un surtido de comestibles básicos.
 <br>
 &emsp;Tenga en cuenta que también tendrá disponible una sala de lavandería
 con lavadora y secadora.
-
 """
 
 [pool_modal]

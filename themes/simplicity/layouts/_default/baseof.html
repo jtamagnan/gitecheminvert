@@ -6,9 +6,7 @@
     <main class="container{{ if .IsHome }} home{{ end }}">
       {{ block "main" . -}}{{- end }}
     </main>
-    {{ if not .IsHome }}
-      {{ partial "footer.html" . }}
-    {{ end }}
+    {{ partial "footer.html" . }}
     <!-- JS -->
     {{ $baguetteBox := resources.Get "/src/scripts/_external/baguetteBox.js" }}
     {{ $headroom := resources.Get "/src/scripts/_external/headroom.js" }}

@@ -4,9 +4,10 @@ body {
     color: $navbar-text-color;
     display: flex;
     font-size: 0.8em;
-    justify-content: space-between;
     padding: 0.5rem;
+
     text-align: center;
+    justify-content: center;
 
     p {
       margin-bottom: 0;
