@@ -1,7 +1,6 @@
 {{ define "main" }}
 <article>
   <h1> {{ .Site.Title }} </h1>
-  <h2> {{ T "subheader" }} </h2>
   <section>
     {{ partial "spotlight-group.html" (dict "resize" "False" "images" (slice "photos/IMG_0033.jpg" "photos/IMG_5545.jpg")) }}
   </section>
